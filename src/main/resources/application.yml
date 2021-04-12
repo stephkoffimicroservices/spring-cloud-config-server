@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: SPRING-CLOUD-CONFIG-SERVER
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/stephkoffimicroservices/spring-cloud-config-server.git
+
+
+server:
+  port: 8888
